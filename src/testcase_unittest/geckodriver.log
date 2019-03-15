@@ -1,0 +1,459 @@
+1552640463802	geckodriver	INFO	Listening on 127.0.0.1:50446
+1552640466813	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.QKjHpItPSwZV
+1552640466815	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1552640466827	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50741
+1552640467044	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[Child 13220] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13220] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/PopupNotifications.jsm, line 1043: TypeError: this.panel.openPopup is not a function
+[Parent 12944] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12476] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12476] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 972] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 972] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:622:19
+observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 13116] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+askImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: aAddon._installLocation is undefined
+Full stack: shouldVerifySignedState@resource://gre/modules/addons/XPIProvider.jsm:1617:1
+verifyZipSignedState@resource://gre/modules/addons/XPIProvider.jsm:1648:8
+loadManifestFromZipReader<@resource://gre/modules/addons/XPIProvider.jsm:1381:29
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromZipFile<@resource://gre/modules/addons/XPIProvider.jsm:1406:26
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+loadManifestFromFile@resource://gre/modules/addons/XPIProvider.jsm:1416:12
+AddonInstaller.InstallerService._installExtension/<@resource://addoninstaller/installerService.js:218:41
+AddonInstaller.InstallerService._shouldInstall/<@resource://addoninstaller/installerService.js:311:17
+safeCall@resource://gre/modules/AddonManager.jsm:179:5
+makeSafe/<@resource://gre/modules/AddonManager.jsm:195:25
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+JavaScript warning: http://www.kugou.com/yy/static/js/search/search.js, line 9: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+1515750231622	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+d.js:58:7
+unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:56:3
+onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:77:5
+Observer<.observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+unload@resource://gre/modules/commonjs/toolkit/loader.js:795:3
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/fang/AppData/Local/Temp/rust_mozprofile.E9XpPLuo2RFa/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+this.XPIProvider.callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4675:9
+this.XPIProvider.startup/<.observe@resource://gre/modules/addons/XPIProvider.jsm:2715:15
+GeckoDriver.prototype.quitApplication@chrome://marionette/content/driver.js:2756:3
+Dispatcher.prototype.execute/req<@chrome://marionette/content/dispatcher.js:126:20
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:120:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:91:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:479:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+kplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1515749572976&cop=zdclassid%3D1249%26zdquery%3DperformActions%26zhidaoqid%3D1823173214877749548&ti=%E6%B1%82python%E7%A5%9E%EF%BC%8C%20pthyon%2Bselenium%E9%87%8CActionChains%E7%9A%84%E5%BC%82%E5%B8%B8%20%E8%BF%99%E4%BA%9B%E4%B8%80%E8%B5%B7%E5%BC%B9%E5%87%BA%E6%9D%A5%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D%E5%95%8A%EF%BC%8C%E6%80%8E%E4%B9%88&ari=2&dbv=0&drs=3&pcs=1349x641&pss=1349x1812&cfv=0&cpl=27&chi=1&cce=true&cec=gbk&tlm=1515749574&prot=2&rw=641&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1823173214877749548.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DoV3ix-xjkJTTMxGpA7lO8oLQV5sKVCV9q5EuRDbY2eufs6K9FHoGl9cpfbv7RPRUo5HXY2Au0iqihX1ICx6kcjdMsUnm_ztW0BU4aNbr3O3%26wd%3D%26eqid%3Db6155b1e000082e9000000035a5880bf&ecd=1&uc=1366x738&pis=-1x-1&sr=1366x768&tcn=1515749574&qn=e78bd2e345e36193&dpv=e78bd2e345e36193&tt=1515749572923.1460.1896.1896, line 83: unreachable code after return statement
+JavaScript warning: https://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js, line 50: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://pos.baidu.com/cccm?conwid=250&conhei=250&mpdi=227509&rtbid=1972219&rdid=9223372032564532863&dc=2&di=968278&dri=0&dis=0&dai=0&ps=646x949&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1515749628146&cop=zdclassid%3D1249%26zdquery%3DperformActions%26zhidaoqid%3D1823173214877749548&ti=%E6%B1%82python%E7%A5%9E%EF%BC%8C%20pthyon%2Bselenium%E9%87%8CActionChains%E7%9A%84%E5%BC%82%E5%B8%B8%20%E8%BF%99%E4%BA%9B%E4%B8%80%E8%B5%B7%E5%BC%B9%E5%87%BA%E6%9D%A5%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D%E5%95%8A%EF%BC%8C%E6%80%8E%E4%B9%88&ari=2&dbv=0&drs=3&pcs=1349x641&pss=1349x1812&cfv=0&cpl=27&chi=1&cce=true&cec=gbk&tlm=1515749628&prot=2&rw=641&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1823173214877749548.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DoV3ix-xjkJTTMxGpA7lO8oLQV5sKVCV9q5EuRDbY2eufs6K9FHoGl9cpfbv7RPRUo5HXY2Au0iqihX1ICx6kcjdMsUnm_ztW0BU4aNbr3O3%26wd%3D%26eqid%3Db6155b1e000082e9000000035a5880bf&ecd=1&uc=1366x738&pis=-1x-1&sr=1366x768&tcn=1515749629&qn=1c912a9ae05b6a6f&dpv=1c912a9ae05b6a6f&tt=1515749628104.457.506.507, line 83: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/cccm?conwid=250&conhei=250&mpdi=227509&rtbid=1972219&rdid=9223372032564532863&dc=2&di=968278&dri=0&dis=0&dai=0&ps=646x949&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1515749628146&cop=zdclassid%3D1249%26zdquery%3DperformActions%26zhidaoqid%3D1823173214877749548&ti=%E6%B1%82python%E7%A5%9E%EF%BC%8C%20pthyon%2Bselenium%E9%87%8CActionChains%E7%9A%84%E5%BC%82%E5%B8%B8%20%E8%BF%99%E4%BA%9B%E4%B8%80%E8%B5%B7%E5%BC%B9%E5%87%BA%E6%9D%A5%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D%E5%95%8A%EF%BC%8C%E6%80%8E%E4%B9%88&ari=2&dbv=0&drs=3&pcs=1349x641&pss=1349x1812&cfv=0&cpl=27&chi=1&cce=true&cec=gbk&tlm=1515749628&prot=2&rw=641&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1823173214877749548.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DoV3ix-xjkJTTMxGpA7lO8oLQV5sKVCV9q5EuRDbY2eufs6K9FHoGl9cpfbv7RPRUo5HXY2Au0iqihX1ICx6kcjdMsUnm_ztW0BU4aNbr3O3%26wd%3D%26eqid%3Db6155b1e000082e9000000035a5880bf&ecd=1&uc=1366x738&pis=-1x-1&sr=1366x768&tcn=1515749629&qn=1c912a9ae05b6a6f&dpv=1c912a9ae05b6a6f&tt=1515749628104.457.506.507, line 83: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/vcnm?conwid=250&conhei=250&mpdi=227509&rtbid=1972221&rdid=9223372032564533187&dc=2&di=968825&dri=0&dis=0&dai=0&ps=158x923&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1515749667501&ti=%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E6%90%9C%E7%B4%A2_raise%20exception_class(message%2C%20screen%2C%20stacktrace)%20se&ari=2&dbv=0&drs=1&pcs=1349x641&pss=1349x1557&cfv=0&cpl=27&chi=2&cce=true&cec=gbk&tlm=1515749667&prot=2&rw=641&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fsearch%3Flm%3D0%26rn%3D10%26pn%3D0%26fr%3Dsearch%26ie%3Dgbk%26word%3Draise%2Bexception_class%2528message%252C%2Bscreen%252C%2Bstacktrace%2529%2Bselenium.common.exceptions.WebDriverException%253A%2BMessage%253A%2BperformActions&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1823173214877749548.html&ecd=1&uc=1366x738&pis=-1x-1&sr=1366x768&tcn=1515749668&qn=bbbbc5f2012c4735&dpv=bbbbc5f2012c4735&tt=1515749667278.226.278.280, line 83: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/vcnm?conwid=250&conhei=250&mpdi=227509&rtbid=1972221&rdid=9223372032564533187&dc=2&di=968825&dri=0&dis=0&dai=0&ps=158x923&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1515749667501&ti=%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E6%90%9C%E7%B4%A2_raise%20exception_class(message%2C%20screen%2C%20stacktrace)%20se&ari=2&dbv=0&drs=1&pcs=1349x641&pss=1349x1557&cfv=0&cpl=27&chi=2&cce=true&cec=gbk&tlm=1515749667&prot=2&rw=641&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fsearch%3Flm%3D0%26rn%3D10%26pn%3D0%26fr%3Dsearch%26ie%3Dgbk%26word%3Draise%2Bexception_class%2528message%252C%2Bscreen%252C%2Bstacktrace%2529%2Bselenium.common.exceptions.WebDriverException%253A%2BMessage%253A%2BperformActions&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1823173214877749548.html&ecd=1&uc=1366x738&pis=-1x-1&sr=1366x768&tcn=1515749668&qn=bbbbc5f2012c4735&dpv=bbbbc5f2012c4735&tt=1515749667278.226.278.280, line 83: unreachable code after return statement
+JavaScript warning: https://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js, line 50: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://pos.baidu.com/jccm?conwid=250&conhei=250&mpdi=227509&rtbid=1972219&rdid=9223372032564532863&dc=2&di=968278&dri=0&dis=0&dai=0&ps=646x949&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1515749671286&cop=zdclassid%3D1039%26zhidaoqid%3D629266421180319964&ti=%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%EF%BC%9Apython%2Bselenium%20%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98%E3%80%82%E4%B9%8B%E5%89%8D%E8%84%9A%E6%9C%AC%E8%BF%90%E8%A1%8C%E7%9A%84%E5%A5%BD%E5%A5%BD%E7%9A%84%E4%BB%8A%E5%A4%A9%E5%B0%B1%E4%B8%8D%E8%A1%8C%E4%BA%86%EF%BC%8C%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E5%90%8E%EF%BC%8Csend_keys&ari=2&dbv=0&drs=3&pcs=1349x641&pss=1349x2266&cfv=0&cpl=27&chi=1&cce=true&cec=gbk&tlm=1515749671&prot=2&rw=641&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F629266421180319964.html%3Ffr%3Diks%26word%3Draise%2Bexception_class%2528message%252C%2Bscreen%252C%2Bstacktrace%2529%2Bselenium.common.exceptions.WebDriverException%253A%2BMessage%253A%2BperformActions%26ie%3Dgbk&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fsearch%3Flm%3D0%26rn%3D10%26pn%3D0%26fr%3Dsearch%26ie%3Dgbk%26word%3Draise%2Bexception_class%2528message%252C%2Bscreen%252C%2Bstacktrace%2529%2Bselenium.common.exceptions.WebDriverException%253A%2BMessage%253A%2BperformActions&ecd=1&uc=1366x738&pis=-1x-1&sr=1366x768&tcn=1515749672&qn=fe117a1d54acaf17&dpv=fe117a1d54acaf17&tt=1515749671263.391.728.728, line 83: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/jccm?conwid=250&conhei=250&mpdi=227509&rtbid=1972219&rdid=9223372032564532863&dc=2&di=968278&dri=0&dis=0&dai=0&ps=646x949&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1515749671286&cop=zdclassid%3D1039%26zhidaoqid%3D629266421180319964&ti=%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%EF%BC%9Apython%2Bselenium%20%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98%E3%80%82%E4%B9%8B%E5%89%8D%E8%84%9A%E6%9C%AC%E8%BF%90%E8%A1%8C%E7%9A%84%E5%A5%BD%E5%A5%BD%E7%9A%84%E4%BB%8A%E5%A4%A9%E5%B0%B1%E4%B8%8D%E8%A1%8C%E4%BA%86%EF%BC%8C%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E5%90%8E%EF%BC%8Csend_keys&ari=2&dbv=0&drs=3&pcs=1349x641&pss=1349x2266&cfv=0&cpl=27&chi=1&cce=true&cec=gbk&tlm=1515749671&prot=2&rw=641&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F629266421180319964.html%3Ffr%3Diks%26word%3Draise%2Bexception_class%2528message%252C%2Bscreen%252C%2Bstacktrace%2529%2Bselenium.common.exceptions.WebDriverException%253A%2BMessage%253A%2BperformActions%26ie%3Dgbk&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fsearch%3Flm%3D0%26rn%3D10%26pn%3D0%26fr%3Dsearch%26ie%3Dgbk%26word%3Draise%2Bexception_class%2528message%252C%2Bscreen%252C%2Bstacktrace%2529%2Bselenium.common.exceptions.WebDriverException%253A%2BMessage%253A%2BperformActions&ecd=1&uc=1366x738&pis=-1x-1&sr=1366x768&tcn=1515749672&qn=fe117a1d54acaf17&dpv=fe117a1d54acaf17&tt=1515749671263.391.728.728, line 83: unreachable code after return statement
+1552640523703	geckodriver	INFO	Listening on 127.0.0.1:56424
+1552640526738	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.GWQWqxGAzPDZ
+1552640526740	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1552640526752	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56776
+1552640527012	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[Child 12732] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12732] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11376] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9228] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9228] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 9868] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552640583095	geckodriver	INFO	Listening on 127.0.0.1:62314
+1552640586120	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.tS2xe0wJR8Fa
+1552640586121	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1552640586133	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62617
+1552640586377	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[Child 12420] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12420] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 1831: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIAutoCompleteController.setInitiallySelectedIndex]
+[Parent 7180] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12668] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12668] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7180] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2696] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2696] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:622:19
+observe@resource://gre/modules/AsyncShutdown.jsm:534:9
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552641094287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.ztw5wL8vX4kr"
+1552641095106	Marionette	INFO	Enabled via --marionette
+1552641096316	Marionette	INFO	Listening on port 62559
+1552641096406	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11148, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11148, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552641114663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.q1lMaNAX62IP"
+1552641115354	Marionette	INFO	Enabled via --marionette
+1552641116438	Marionette	INFO	Listening on port 64631
+1552641116782	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552642925786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.gNB8MKJy9iNc"
+1552642926484	Marionette	INFO	Enabled via --marionette
+1552642927680	Marionette	INFO	Listening on port 61170
+1552642927978	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

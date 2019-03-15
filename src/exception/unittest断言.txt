@@ -1,0 +1,34 @@
+在 unittest 单元测试框架中，TestCase 类提供了一些方法来检查并报告故障，如表5.x ：
+下面所提供的断言方法（assertRaises(), assertRaisesRegexp()除外）接收 msg 参数，如果指定，
+将体作为失败的错误信息。
+---------------------------------------------------------------
+|Method  			       |  Checks  that          | New  in |
+---------------------------------------------------------------
+|assertEqual(a, b)         |	a == b              |		  | 
+|assertNotEqual(a, b)      | 	a != b              |		  |
+|assertTrue(x)             |	bool(x) is True     |		  |
+|assertFalse(x) 		   | 	bool(x) is False    |		  |
+|assertIs(a, b) 		   |	a is b 	            |	2.7   |
+|assertIsNot(a, b) 		   |	a is not b          |	2.7   |
+|assertIsNone(x) 		   |	x is None 			|	2.7   |
+|assertIsNotNone(x)        | 	x is not None 		|	2.7   |
+|assertIn(a, b) 		   |	a in b 				|	2.7   |
+|assertNotIn(a, b) 		   |	a not in b 			|	2.7   |
+|assertIsInstance(a, b)    |	isinstance(a, b) 	|	2.7   |
+|assertNotIsInstance(a, b) |	not isinstance(a, b)|	2.7   |
+---------------------------------------------------------------
+以下为 python  2.7 版新增的断言方法：
+assertIs(first, second, msg=None)
+assertIsNot(first, second, msg=None)
+测试的 first 和 second 是（或 不是）相同的对象。
+assertIsNone(expr, msg=None)
+assertIsNotNone(expr, msg=None)
+测试 expr 是（或 不是）为 None
+assertIn(first, second, msg=None)
+assertNotIn(first, second, msg=None)
+测试 first 是（或不是）在 second 中。second 包含是否包含 first 。
+assertIsInstance(obj, cls, msg=None)
+assertNotIsInstance(obj, cls, msg=None)
+测试 obj 不（或 不是）cls 的一个实例。（obj 和 cls 可以是一个类或元组），要检查他们的类型使
+用 assertIs(type(obj), cls)。
+更多断言方法请参考 python unittest 文档。

@@ -1,0 +1,20 @@
+python3.7.1  64位（最新）
+
+selenium3.141.0（最新）
+
+geckodriver.exe（旧的，15版可以配合Firefox51版）
+
+https://github.com/mozilla/geckodriver/releases/download/v0.15.0/geckodriver-v0.15.0-win64.zip
+
+Firefox 51.0.1  32位 （旧的，最后支持java插件的版本） 火狐历史版本下载  https://ftp.mozilla.org/pub/firefox/releases/
+--------------------- 
+如果不需要支持java插件，
+
+应可以用最新的 geckodriver.exe v0.23.0 https://github.com/mozilla/geckodriver/releases/
+
+较新的火狐，Firefox59.03、Firefox 60.3.0esr可用。(实测55\56、63版本都不可用)
+--------------------- 
+作者：liuyukuan 
+来源：CSDN 
+原文：https://blog.csdn.net/liuyukuan/article/details/84594440 
+版权声明：本文为博主原创文章，转载请附上博文链接！

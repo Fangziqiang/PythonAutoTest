@@ -1,0 +1,7 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<info>
+	<explain>百度自动化测试脚本配置信息：</explain>
+	<browser>chrome</browser>
+	<url>http://www.baidu.com</url>
+	<login username="pysetest" passwd='123456'></login>
+</info>

@@ -1,0 +1,44 @@
+<!-- 通过 JavaScript 来隐藏页面上的元素。除了完成 webdriver 无法完成的操作，如果你熟悉 JavaScript
+的话，那么使用 webdriver 执行 JavaScript 是一件非常高效的事情。
+webdriver 提供了 execute_script() 接口用来调用 js 代码。 -->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>js</title>
+		 
+		<script type="text/javascript" async=""
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"
+		rel="stylesheet" />
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#tooltip').tooltip({"placement": "right"});
+			});
+		</script>
+	</head>
+	<body>
+		<h3>js</h3>
+		<div class="row-fluid">
+			<div class="span6 well">
+				<a id="tooltip" href="#" data-toggle="tooltip" title=" selenium-webdriver(python)">hover to see
+				tooltip</a>
+				<a class="btn">Button</a>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+    		getClass=function(tagname, className) { //tagname指元素，className指class的值
+				var tagname = document.getElementsByTagName(tagname);  //获取指定元素
+				var tagnameAll = [];     //这个数组用于存储所有符合条件的元素
+				for (var i = 0; i < tagname.length; i++) {     //遍历获得的元素
+					if (tagname[i].className == className) {     //如果获得的元素中的class的值等于指定的类名，就赋值给tagnameAll
+						tagnameAll[tagnameAll.length] = tagname[i];
+					}
+				}
+				return tagnameAll;
+			}
+        </script>
+
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</html>
