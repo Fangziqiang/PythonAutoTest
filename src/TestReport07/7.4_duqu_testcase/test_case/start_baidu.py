@@ -1,8 +1,7 @@
 #coding=utf-8
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-import time,re
-import HtmlTestRunner
+import time,re,HTMLTestRunner
 import unittest
 
 class Baidu(unittest.TestCase):
@@ -17,15 +16,19 @@ class Baidu(unittest.TestCase):
     
     #百度搜索用例
     def test_baidu_search(self):
+        #添加注释
+#       三引号的注释会出现在测试报告中“test_baidu_search: 百度搜索测试”
+        u'''百度搜索测试test'''
         driver =self.driver
         driver.get(self.base_url+"/")
         driver.find_element_by_id("kw").send_keys("selenium webdriver")
         driver.find_element_by_id("su").click()
-        time.sleep(2) 
+        time.sleep(2)
         driver.close()
     
     #百度设置用例
     def test_baidu_set(self):
+        u'''百度设置测试'''
         driver=self.driver
         driver.get(self.base_url+"/gaoji/preferences.html")
         

@@ -5,7 +5,13 @@
 class Counter:
     def add(self,a,b):
         c=a+b
-        print c
+        print (c)
     def subtract(self,a,b):
         c=a-b
-        print c
+        print (c)
+
+# 创建实例
+test = Counter()
+
+test.add(1,2)
+test.subtract(1,2)

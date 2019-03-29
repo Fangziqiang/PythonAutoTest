@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 
-class Baidu(unittest.TestCase):
+class TestBaidu(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
 # 如果启动IE浏览器失败，Internet选项/本地Internet/受信任的站定/受限制的站点中的启用保护模式全部去掉勾，或者全部勾上

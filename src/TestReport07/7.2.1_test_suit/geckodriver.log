@@ -1,0 +1,53 @@
+1553662297686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Iy6eLsEmlosD"
+1553662327003	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Fgcrmqcv8Oj8"
+1553662327905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1553662327905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1553662329871	Marionette	INFO	Listening on port 61273
+1553662330225	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20we&req=2&csor=11&pwd=selenium%20w&cb=jQuery110208867820704868357_1553662330868&_=1553662330880, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=sel&req=2&csor=3&pwd=se&cb=jQuery110208867820704868357_1553662330868&_=1553662330872, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20w&req=2&csor=10&pwd=selenium%20&cb=jQuery110208867820704868357_1553662330868&_=1553662330879, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20web&req=2&csor=12&pwd=selenium%20we&cb=jQuery110208867820704868357_1553662330868&_=1553662330881, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20webdri&req=2&csor=15&pwd=selenium%20webdr&cb=jQuery110208867820704868357_1553662330868&_=1553662330884, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium&req=2&csor=8&pwd=seleniu&cb=jQuery110208867820704868357_1553662330868&_=1553662330877, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20&req=2&csor=9&pwd=selenium&cb=jQuery110208867820704868357_1553662330868&_=1553662330878, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=seleniu&req=2&csor=7&pwd=seleni&cb=jQuery110208867820704868357_1553662330868&_=1553662330876, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20webdr&req=2&csor=14&pwd=selenium%20webd&cb=jQuery110208867820704868357_1553662330868&_=1553662330883, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20webd&req=2&csor=13&pwd=selenium%20web&cb=jQuery110208867820704868357_1553662330868&_=1553662330882, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20webdriv&req=2&csor=16&pwd=selenium%20webdri&cb=jQuery110208867820704868357_1553662330868&_=1553662330885, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20webdrive&req=2&csor=17&pwd=selenium%20webdriv&cb=jQuery110208867820704868357_1553662330868&_=1553662330886, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selenium%20webdriver&req=2&csor=18&pwd=selenium%20webdrive&cb=jQuery110208867820704868357_1553662330868&_=1553662330887, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=sele&req=2&csor=4&pwd=sel&cb=jQuery110208867820704868357_1553662330868&_=1553662330873, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=selen&req=2&csor=5&pwd=sele&cb=jQuery110208867820704868357_1553662330868&_=1553662330874, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=se&req=2&csor=2&pwd=s&cb=jQuery110208867820704868357_1553662330868&_=1553662330871, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=s&req=2&csor=1&cb=jQuery110208867820704868357_1553662330868&_=1553662330870, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+JavaScript error: https://m.baidu.com/sugrec?pre=1&p=3&ie=utf-8&json=1&prod=wise&from=wise_web&sugsid=28628,1435,21089,28723,28558,28697,28584,28603,22159&wd=seleni&req=2&csor=6&pwd=selen&cb=jQuery110208867820704868357_1553662330868&_=1553662330875, line 1: TypeError: jQuery110208867820704868357_1553662330868 is not a function
+1553662333461	Marionette	INFO	Stopped listening on port 61273
+[Parent 7784, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1553662337184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.cveEBKuPpqaK"
+1553662338106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1553662338106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1553662339523	Marionette	INFO	Listening on port 61343
+1553662339898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1553662345049	Marionette	INFO	Stopped listening on port 61343
+[Parent 6296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6644, Chro[Parent 6296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11028, Chrome_ChildThread] WARNING: pipe e[Child 6356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_[G
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+PU 11176, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
